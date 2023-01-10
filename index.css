@@ -1,0 +1,186 @@
+.row1left {
+    flex: 1;
+    background-color: red;
+}
+.row1right {
+    flex: 1;
+    background-color: blue;
+}
+
+.row2left {
+    flex: 95%;
+    background-color: green;
+}
+.row2right {
+    flex: 5%;
+    background-color: blue;
+}
+
+.row3left {
+    flex: 5%;
+    background-color: red;
+}
+.row3center {
+    flex: 90%;
+    background-color: green;
+}
+.row3right {
+    flex: 5%;
+    background-color: blue;
+}
+
+.row4left {
+    flex: 95%;
+    background-color: red;
+}
+.row4right {
+    flex: 5%;
+    background-color: blue;
+}
+
+.row5outter {
+    position: relative;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    background-color: green;
+}
+.row5inner {
+    width: 2.5%;
+    height: 100%;
+    top: 0%;
+    margin:auto;
+    position: relative;
+    background-color: red;
+}
+
+.row6outter {
+    position: relative;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: red;
+}
+.row6inner {
+    width: 5%;
+    height: 2em;
+    top: 12.5%;
+    margin: auto;
+    padding: 0%;
+    position: relative;
+    background-color: blue;
+}
+
+.row7 {
+    display: flex;
+    flex-direction: row;
+}
+.row7left {
+    display: flex;
+    order: 1;
+    width: 5%;
+    background-color: red;
+}
+.row7right {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    order: 1;
+    width: 95%;
+    background-color: blue;
+}
+
+.row7-centered-at-right {
+    display: flex;
+    width: 100%;
+    height: 0.65em;
+    background-color: green;
+}
+
+.row8 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row8-orange-little {
+    display: flex;
+    width: 5%;
+    background-color: orange;
+}
+.row8-green-big {
+    display: flex;
+    width: 19%;
+    background-color: green;
+}
+
+.row9 {
+    display: flex;
+    flex-direction: row;
+}
+.row9-orange-big {
+    display: flex;
+    width: 19%;
+    background-color: orange;
+}
+.row9-green-little {
+    display: flex;
+    width: 1.5%;
+    background-color: green;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .row7left {
+        display: flex;
+        order: 1;
+        width: 10%;
+        background-color: red;
+    }
+    .row7right {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        order: 1;
+        width: 90%;
+        background-color: blue;
+    }
+
+
+    .row8 {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .row8-orange-little {
+        display: flex;
+        width: 17%;
+        background-color: orange;
+    }
+    .row8-green-big {
+        display: flex;
+        width: 3%;
+        background-color: green;
+    }
+    
+    .row9 {
+        display: flex;
+        flex-direction: row;
+    }
+    .row9-orange-big {
+        display: flex;
+        width: 17%;
+        background-color: orange;
+    }
+    .row9-green-little {
+        display: flex;
+        width: 3%;
+        background-color: green;
+    }
+}
